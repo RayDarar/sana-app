@@ -1,0 +1,27 @@
+{
+  "name": "sana",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "start:android": "expo start --android",
+    "start:ios": "expo start --ios",
+    "start:web": "expo start --web",
+    "prettier": "prettier"
+  },
+  "dependencies": {
+    "expo": "~51.0.18",
+    "expo-build-properties": "~0.12.3",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "@types/react": "^18.3.3",
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.5.3",
+    "prettier": "^3.2.5"
+  },
+  "private": true,
+  "packageManager": "yarn@1.22.22"
+}
