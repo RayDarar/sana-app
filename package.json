@@ -7,20 +7,23 @@
     "start:android": "expo start --android",
     "start:ios": "expo start --ios",
     "start:web": "expo start --web",
-    "prettier": "prettier"
+    "prettier": "prettier",
+    "start:new:android": "expo run:android",
+    "start:new:ios": "expo run:ios"
   },
   "dependencies": {
     "expo": "~51.0.18",
     "expo-build-properties": "~0.12.3",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react-native": "0.74.3",
+    "react-native-paper": "^5.12.3"
   },
-  "@types/react": "^18.3.3",
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "typescript": "^5.5.3",
-    "prettier": "^3.2.5"
+    "@types/react": "^18.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
   },
   "private": true,
   "packageManager": "yarn@1.22.22"
