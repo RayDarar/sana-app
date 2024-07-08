@@ -1,0 +1,1 @@
+export { useSanaTheme } from "./theme";

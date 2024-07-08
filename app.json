@@ -2,6 +2,7 @@
   "expo": {
     "name": "sana",
     "slug": "sana",
+    "scheme": "sana",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
