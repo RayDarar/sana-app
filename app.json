@@ -9,11 +9,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.svg",
-      "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {

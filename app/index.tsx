@@ -1,9 +1,9 @@
 import { View } from "react-native";
-import { Text } from "react-native-paper";
+import { Button, Text } from "react-native-paper";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useSanaTheme } from "@/ui";
 
-export default function Page() {
+export default function HomePage() {
   const insets = useSafeAreaInsets();
   const theme = useSanaTheme();
 
@@ -17,6 +17,15 @@ export default function Page() {
       >
         Home page
       </Text>
+
+      <Button
+        mode="contained"
+        onPress={() => {
+          alert("Pressed");
+        }}
+      >
+        Go to 404
+      </Button>
     </View>
   );
 }
